@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.header-services {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+}
+.header-services__selector-picker {
+  border: none;
+  font-weight: 300;
+}
+
+.messeges-nav__link {
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+  color: #000000;
+}
+.messeges-nav__link::after {
+  border-right: 1px solid grey;
+  margin: 15px;
+  content: "";
+}
+.messeges-nav__link:last-child::after {
+  border-right: none;
+}
+
+/*# sourceMappingURL=style.css.map */
